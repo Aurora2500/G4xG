@@ -19,15 +19,27 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/map/HexTile.gd"
 }, {
+"base": "HexTile",
+"class": "LandHexTile",
+"language": "GDScript",
+"path": "res://src/map/LandHexTile.gd"
+}, {
 "base": "Node",
 "class": "MapGenerator",
 "language": "GDScript",
 "path": "res://src/manager/MapGenerator.gd"
+}, {
+"base": "HexTile",
+"class": "SeaHexTile",
+"language": "GDScript",
+"path": "res://src/map/SeaHexTile.gd"
 } ]
 _global_script_class_icons={
 "HexGrid": "",
 "HexTile": "",
-"MapGenerator": ""
+"LandHexTile": "",
+"MapGenerator": "",
+"SeaHexTile": ""
 }
 
 [application]
